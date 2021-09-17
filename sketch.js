@@ -38,7 +38,7 @@ function draw() {
   hero.y=mouseY;     
   }
   
-  fill("red");
+  fill("green");
   stroke("blue");
   //ellipse(windowWidth/2,100,100,50);
   if(frameCount%10===0){genobj()}
