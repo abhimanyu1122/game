@@ -24,11 +24,13 @@ function draw() {
   background(bgImage);
   if (tl===0&&mousePressedOver(res)){
        tl=500;
-     res.visible=false;  
+     res.visible=false; 
+    score=0
   }
-  if(mouseX>windowWidth-200&&mouseX<windowWidth+200&&mouseY>windowheight-100&&mouseY<windowHeight+100&&tl===0){
+  if(mouseX>windowWidth/2-200&&mouseX<windowWidth/2+200&&mouseY>windowheight/2-100&&mouseY<windowHeight/2+100&&tl===0){
  tl=500;
-     res.visible=false;  
+     res.visible=false; 
+    score=0
 }
   if(tl>0){
   if(windowHeight*0.5<mouseY){
@@ -75,10 +77,10 @@ function genobj(){
      obgroup.add(a);
      
 }
-function touchStarted
+/*function touchStarted
 (){
 if(mouseX>windowWidth-200&&mouseX<windowWidth+200&&mouseY>windowheight-100&&mouseY<windowHeight+100&&tl===0){
  tl=500;
      res.visible=false;  
 }
-}
+}*/
