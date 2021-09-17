@@ -27,7 +27,7 @@ function draw() {
      res.visible=false; 
     score=0
   }
-  if(mouseX>windowWidth/2-200&&mouseX<windowWidth/2+200&&mouseY>windowheight/2-100&&mouseY<windowHeight/2+100&&tl===0){
+  if(mouseX>windowWidth/2-200&&mouseX<windowWidth/2+200&&mouseY>windowHeight/2-100&&mouseY<windowHeight/2+100&&tl===0){
  tl=500;
      res.visible=false; 
     score=0
