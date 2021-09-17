@@ -26,6 +26,10 @@ function draw() {
        tl=500;
      res.visible=false;  
   }
+  if(mouseX>windowWidth-200&&mouseX<windowWidth+200&&mouseY>windowheight-100&&mouseY<windowHeight+100&&tl===0){
+ tl=500;
+     res.visible=false;  
+}
   if(tl>0){
   if(windowHeight*0.5<mouseY){
   hero.x=mouseX;
